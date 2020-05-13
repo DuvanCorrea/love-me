@@ -57,7 +57,7 @@ function changePositionBtnNo() {
 function changeImgRandom() {
   const random = Math.floor(Math.random() * imgs.length);
   console.log(random);
-  img.setAttribute("src", `/img/${imgs[random]}`);
+  img.setAttribute("src", `${imgs[random]}`);
 }
 
 /********************************* assing functions *********************************/
